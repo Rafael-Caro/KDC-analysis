@@ -486,7 +486,7 @@ class Data:
     #     p.show()
 
     def plot(self, intervals=None, new_fig=True, shahed=None,
-             saveToFileName=None):
+             saveToFileName=None, title=None, xlabel=None, ylabel=None):
         """This function plots histogram together with its smoothed
         version and peak information if provided. Just intonation
         intervals are plotted for a reference."""
@@ -517,6 +517,9 @@ class Data:
                         shahed_index = i
                 p.plot(self.peaks["peaks"][0][shahed_index],
                        self.peaks["peaks"][1][shahed_index], 'rD', ms=10)
+        p.title(title)
+        p.ylabel(ylabel)
+        p.xlabel(xlabel)
 
         #Intervals
         if intervals is not None:
