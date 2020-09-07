@@ -442,7 +442,51 @@ class Data:
                 extended_peaks.append(i)
         return extended_peaks
 
-    def plot(self, intervals=None, new_fig=True):
+    # def plot(self, intervals=None, new_fig=True):
+    #     """This function plots histogram together with its smoothed
+    #     version and peak information if provided. Just intonation
+    #     intervals are plotted for a reference."""
+    #
+    #     import pylab as p
+    #
+    #     if new_fig:
+    #         p.figure()
+    #
+    #     #step 1: plot histogram
+    #     p.plot(self.x, self.y, ls='-', c='b', lw='1.5')
+    #
+    #     #step 2: plot peaks
+    #     first_peak = None
+    #     last_peak = None
+    #     if self.peaks:
+    #         first_peak = min(self.peaks["peaks"][0])
+    #         last_peak = max(self.peaks["peaks"][0])
+    #         p.plot(self.peaks["peaks"][0], self.peaks["peaks"][1], 'rD', ms=10)
+    #         p.plot(self.peaks["valleys"][0], self.peaks["valleys"][1], 'yD', ms=5)
+    #
+    #     #Intervals
+    #     if intervals is not None:
+    #         #spacing = 0.02*max(self.y)
+    #         for interval in intervals:
+    #             if first_peak is not None:
+    #                 if interval <= first_peak or interval >= last_peak:
+    #                     continue
+    #             p.axvline(x=interval, ls='-.', c='g', lw='1.5')
+    #             if interval-1200 >= min(self.x):
+    #                 p.axvline(x=interval-1200, ls=':', c='b', lw='0.5')
+    #             if interval+1200 <= max(self.x):
+    #                 p.axvline(x=interval+1200, ls=':', c='b', lw='0.5')
+    #             if interval+2400 <= max(self.x):
+    #                 p.axvline(x=interval+2400, ls='-.', c='r', lw='0.5')
+    #             #spacing *= -1
+    #
+    #     #p.title("Tonic-aligned complete-range pitch histogram")
+    #     #p.xlabel("Pitch value (Cents)")
+    #     #p.ylabel("Normalized frequency of occurence")
+    #     p.show()
+
+    def plot(self, intervals=None, new_fig=True, shahed=None,
+             saveToFileName=None):
         """This function plots histogram together with its smoothed
         version and peak information if provided. Just intonation
         intervals are plotted for a reference."""
@@ -461,8 +505,18 @@ class Data:
         if self.peaks:
             first_peak = min(self.peaks["peaks"][0])
             last_peak = max(self.peaks["peaks"][0])
-            p.plot(self.peaks["peaks"][0], self.peaks["peaks"][1], 'rD', ms=10)
-            p.plot(self.peaks["valleys"][0], self.peaks["valleys"][1], 'yD', ms=5)
+            p.plot(self.peaks["peaks"][0], self.peaks["peaks"][1], 'r.', ms=10)
+            if shahed != None:
+                distance = 100
+                shahed_index = 0
+                for i in range(len(self.peaks["peaks"][0])):
+                    current_peak = self.peaks["peaks"][0][i]
+                    current_distance = abs(shahed - current_peak)
+                    if current_distance < distance:
+                        distance = current_distance
+                        shahed_index = i
+                p.plot(self.peaks["peaks"][0][shahed_index],
+                       self.peaks["peaks"][1][shahed_index], 'rD', ms=10)
 
         #Intervals
         if intervals is not None:
@@ -483,7 +537,11 @@ class Data:
         #p.title("Tonic-aligned complete-range pitch histogram")
         #p.xlabel("Pitch value (Cents)")
         #p.ylabel("Normalized frequency of occurence")
-        p.show()
+        if saveToFileName == None:
+            p.show()
+        else:
+            p.savefig(saveToFileName)
+            p.show()
 
 ################################################################################
 # PITCH                                                                        #
