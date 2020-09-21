@@ -28,7 +28,7 @@ For all the analyses, a text file is generated with the specific numeric results
 
  * The `essentiaUtils.py` file defines some Python functions using algorithms from Essentia that are used in the previous notebook.
 
- * The `intonation.py` file is borrowed from the [intonation GitHub repository](https://github.com/gopalkoduri/intonation) by Gopala Koduri, and is used in the notebook for computing pitch histograms. Small modifications have been added to adapt the code to Python 3 and customize the resulting plots.
+ * The `intonation.py` file is borrowed from the [intonation GitHub repository](https://github.com/gopalkoduri/intonation) by Gopala Koduri<sup>2</sup>, and is used in the notebook for computing pitch histograms. Small modifications have been added to adapt the code to Python 3 and customize the resulting plots.
 
  * The `KDC-data.csv` contains the required metadata and annotations for running the notebook.
 
@@ -60,7 +60,10 @@ For all the analyses, a text file is generated with the specific numeric results
  # License
  The content of this repository is licensed under the terms of
 
+
+
 <hr>
 [1] Bogdanov D, Wack N, Gómez E, Sankalp G, Herrera P, Mayor O, Roma G, Salamon J, Zapata J, Serra X. Essentia: an audio analysis library for music information retrieval. In: Britto A, Gouyon F, Dixon S, editors. *14th Conference of the International Society for Music Information Retrieval (ISMIR)*; 2013 Nov 4-8; Curitiba, Brazil. [place unknown]: ISMIR; 2013. p. 493-8. [http://hdl.handle.net/10230/32252](http://hdl.handle.net/10230/32252)
+
 
 [2] Koduri GK, Ishwar V, Serrà J, Serra X. Intonation analysis of rāgas in Carnatic music. *Journal of New Music Research*. 2014;43(01):73–94. [http://hdl.handle.net/10230/25676](http://hdl.handle.net/10230/25676)
