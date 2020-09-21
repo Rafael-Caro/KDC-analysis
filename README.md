@@ -31,6 +31,8 @@ For all the analyses, a text file is generated with the specific numeric results
  * The `intonation.py` file is borrowed from the [intonation GitHub repository](https://github.com/gopalkoduri/intonation) by Gopala Koduri<sup>2</sup>, and is used in the notebook for computing pitch histograms. Small modifications have been added to adapt the code to Python 3 and customize the resulting plots.
 
  * The `KDC-data.csv` contains the required metadata and annotations for running the notebook.
+  - The column `Shahed` contain pitch values for the šāhed of each file, manually verified by the authors
+  - The columns `Min_freq`, `Max_freq` and `f0_cf` contain manually verified values for the minimum frequency, maximum frequency and pitch confidence threshold for extracting pitch track
 
  ## Access to the **KDC**
  Since the **KDC** contains a collection of commercial recordings, it cannot be made publicly available. If you are interesting of using the corpus for research purposes, con can contact Babak Nikzat (b.nikzat at kug.ac.at).
