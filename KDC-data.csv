@@ -1,0 +1,59 @@
+File Name;Collection;Dastgah;Gushe;Instrument;Level;Musicians;Shahed;Min_freq;Max_freq;f0_cf;Duration
+ABD_N_MKH_B.flac;OR;Abuata;Daramad;Ney;Beginner;M. Khodadadi;394;260;455;0.65;38
+ABD_N_MKH_E.flac;OR;Abuata;Daramad;Ney;Elaborated;M. Khodadadi;396;280;495;0.65;86
+ABD1_T_MH_E.flac;CR;Abuata;First Daramad;Tar;Elaborated;M. Hosseynqoli;309;140;400;0.8;28
+ABD2_T_MH_E.flac;CR;Abuata;Second Daramad;Tar;Elaborated;M. Hosseynqoli;308;140;450;0.75;32
+ABD3_T_MH_E.flac;CR;Abuata;Third Daramad;Tar;Elaborated;M. Hosseynqoli;308;140;460;0.75;56
+AFD_N_MKH_B.flac;OR;Afshari;Daramad;Ney;Beginner;M. Khodadadi;387;293;486;0.6;28
+AFD_N_MKH_E.flac;OR;Afshari;Daramad;Ney;Elaborated;M. Khodadadi;392;240;550;0.6;102
+AFD1_T_MH_E.flac;CR;Afshari;First Daramad;Tar;Elaborated;M. Hosseynqoli;379;140;430;0.7;29
+AFD2_T_MH_E.flac;CR;Afshari;Second Daramad;Tar;Elaborated;M. Hosseynqoli;379;140;440;0.8;27
+AFD3_T_MH_E.flac;CR;Afshari;Third Daramad;Tar;Elaborated;M. Hosseynqoli;379;140;450;0.7;37
+BAD_N_MKH_B.flac;OR;Bayat-e Tork;Daramad;Ney;Beginner;M. Khodadadi;345;250;470;0.45;40
+BAD_N_MKH_E.flac;OR;Bayat-e Tork;Daramad;Ney;Elaborated;M. Khodadadi;351;250;980;0.5;109
+BAD1_T_MH_E.flac;CR;Bayat-e Tork;First Daramad;Tar;Elaborated;M. Hosseynqoli;448;160;580;0.7;30
+BAD2_T_MH_E.flac;CR;Bayat-e Tork;Second Daramad;Tar;Elaborated;M. Hosseynqoli;448;160;680;0.7;49
+BAD3_T_MH_E.flac;CR;Bayat-e Tork;Third Daramad;Tar;Elaborated;M. Hosseynqoli;448;160;730;0.7;53
+CHD_N_MKH_B.flac;OR;Chahargah;Daramad;Ney;Beginner;M. Khodadadi;1200;810;1390;0.7;30
+CHD_N_MKH_E.flac;OR;Chahargah;Daramad;Ney;Elaborated;M. Khodadadi;604;280;1360;0.6;82
+CHD1_N_AA_E.flac;CR;Chahargah;First Daramad;Ney;Elaborated;A. Afsharnia;532;240;1200;0.5;48
+CHD1_T_MH_E.flac;CR;Chahargah;First Daramad;Tar;Elaborated;M. Hosseynqoli;253;120;340;0.7;42
+CHD2_N_AA_E.flac;CR;Chahargah;Second Daramad;Ney;Elaborated;A. Afsharnia;538;500;1200;0.9;42
+CHD2_T_MH_E.flac;CR;Chahargah;Second Daramad;Tar;Elaborated;M. Hosseynqoli;253;120;340;0.7;41
+CHD3_T_MH_E.flac;CR;Chahargah;Third Daramad;Tar;Elaborated;M. Hosseynqoli;252;120;340;0.7;37
+DAD_N_MKH_B.flac;OR;Dashti;Daramad;Ney;Beginner;M. Khodadadi;892;510;1100;0.9;53
+DAD_N_MKH_E.flac;OR;Dashti;Daramad;Ney;Elaborated;M. Khodadadi;896;510;1230;0.9;99
+DAD1_T_MH_E.flac;CR;Dashti;First Daramad;Tar;Elaborated;M. Hosseynqoli;322;120;350;0.6;36
+DAD2_T_MH_E.flac;CR;Dashti;Second Daramad;Tar;Elaborated;M. Hosseynqoli;322;120;400;0.7;54
+DAD3_T_MH_E.flac;CR;Dashti;Third Daramad;Tar;Elaborated;M. Hosseynqoli;322;120;400;0.6;69
+ESD_N_MKH_B.flac;OR;Esfahan;Daramad;Ney;Beginner;M. Khodadadi;390;280;480;0.55;31
+ESD_N_MKH_E.flac;OR;Esfahan;Daramad;Ney;Elaborated;M. Khodadadi;391;280;480;0.55;104
+HOD_N_MKH_B.flac;OR;Homayun;Daramad;Ney;Beginner;M. Khodadadi;304;240;440;0.45;29
+HOD_N_MKH_E.flac;OR;Homayun;Daramad;Ney;Elaborated;M. Khodadadi;306;240;1340;0.5;63
+MAD_A_MK_E.flac;CR;Mahur;Daramad;Avaz;Elaborated;M. Karimi;136;100;280;0.65;732
+MAD_A&T_MSH&DT_E.flac;CR;Mahur;Daramad;Avaz & Tar;Elaborated;M. Shajarian & D. Talai;264;150;500;0.8;649
+MAD_K_NKH_E.flac;CR;Mahur;Daramad;Kamanche;Elaborated;N. Kharkan;246;122;765;0.8;299
+MAD_N_HK_E.flac;CR;Mahur;Daramad;Ney;Elaborated;H. Kasai;514;167;1384;0.85;859
+MAD_N_MKH_B.flac;OR;Mahur;Daramad;Ney;Beginner;M. Khodadadi;1044;755;1299;0.85;30
+MAD_N_MKH_E.flac;OR;Mahur;Daramad;Ney;Elaborated;M. Khodadadi;1050;769;1436;0.9;71
+NAD_A&N_MSH&HN_E.flac;CR;Nava;Daramad;Tar;Elaborated;M. Shajarian & H. Nahid;206;120;1110;0.7;364
+NAD_N_MKH_B.flac;OR;Nava;Daramad;Ney;Beginner;M. Khodadadi;798;580;950;0.9;37
+NAD_N_MKH_E.flac;OR;Nava;Daramad;Ney;Elaborated;M. Khodadadi;392;220;1080;0.7;82
+NAD_T_HA_E.flac;CR;Nava;Daramad;Tar;Elaborated;H. Alizadeh;163;120;440;0.7;230
+NAD1_T_MH_E.flac;CR;Nava;First Daramad;Tar;Elaborated;M. Hosseynqoli;190;140;260;0.6;34
+NAD2_T_MH_E.flac;CR;Nava;Second Daramad;Tar;Elaborated;M. Hosseynqoli;190;140;260;0.6;59
+RAD_N_MKH_B.flac;OR;Rast-Panjgah;Daramad;Ney;Beginner;M. Khodadadi;525;500;1200;0.9;58
+RAD_N_MKH_E.flac;OR;Rast-Panjgah;Daramad;Ney;Elaborated;M. Khodadadi;259;210;1200;0.6;100
+RAD_T_MH_E.flac;CR;Rast-Panjgah;Daramad;Tar;Elaborated;M. Hosseynqoli;171;100;220;0.5;46
+SED_A&S_MSH&FP_E.flac;CR;Segah;Daramad;Avaz & Santur;Elaborated;M. Shajarian & F. Paivar;217;200;360;0.9;555
+SED_N_HK_E.flac;CR;Segah;Daramad;Ney;Elaborated;H. Kasai;390;190;650;0.7;180
+SED_N_MKH_B.flac;OR;Segah;Daramad;Ney;Beginner;M. Khodadadi;316;240;450;0.5;54
+SED_N_MKH_E.flac;OR;Segah;Daramad;Ney;Elaborated;M. Khodadadi;316;240;1320;0.6;120
+SED_S_DT_E.flac;CR;Segah;Daramad;Setar;Elaborated;D. Talai;390;190;650;0.6;180
+SED_T_HA_E.flac;CR;Segah;Daramad;Tar;Elaborated;H. Alizadeh;407;140;610;0.8;133
+SED1_T_MH_E.flac;CR;Segah;First Daramad;Tar;Elaborated;M. Hosseynqoli;300;150;440;0.6;32
+SED2_T_MH_E.flac;CR;Segah;Second Daramad;Tar;Elaborated;M. Hosseynqoli;299;150;500;0.6;62
+SHD_N_MKH_B.flac;OR;Shur;Daramad;Ney;Beginner;M. Khodadadi;298;240;470;0.5;37
+SHD_N_MKH_E.flac;OR;Shur;Daramad;Ney;Elaborated;M. Khodadadi;298;240;1330;0.5;53
+SHD1_T_MH_E.flac;CR;Shur;First Daramad;Tar;Elaborated;M. Hosseynqoli;210;130;300;0.5;31
+SHD2_T_MH_E.flac;CR;Shur;Second Daramad;Tar;Elaborated;M. Hosseynqoli;210;130;300;0.5;42
