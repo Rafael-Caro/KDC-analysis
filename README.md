@@ -45,18 +45,18 @@ Since the **KDC** contains a collection of commercial recordings, it cannot be m
 In order to run the code, you need to downloaded either using [Git](https://git-scm.com/) or as a zip file. Then you also need to install the following software:
 
 - Essentia: in its website you can find a [guide for installing Essentia](https://essentia.upf.edu/installing.html). Except for Linux users, this can be a bit complicated. For developing this repository, a computer with Windows 10 has been used. According to our experience, the easiest way to have Essentia running in a Windows system is installing a Linux distribution, following this [official installation guide from Microsoft](https://docs.microsoft.com/de-de/windows/wsl/install-win10#install-your-linux-distribution-of-choice) (for this repository we used Ubuntu 18.04 LTS). Once the Linux distribution is installed, Essentia can be installed there by running
-```
-pip3 install essentia
-```
-  from the terminal (installing `pip` might be required, follow the instructions that will appear). The rest of the following software should be also installed in the Linux distribution, and the code also should be run from there.
+    ```
+    pip3 install essentia
+    ```
+    from the terminal (installing `pip` might be required, follow the instructions that will appear). The rest of the following software should be also installed in the Linux distribution, and the code also should be run from there.
 
 - Jupyter: in its website you can find a [guide for installing Jupyter](https://jupyter.org/install)
 
 - The dependencies contained in the requirements file. In order to do so, using a terminal go to the directory where you downloaded this repository and which contains the `requirements.txt` file and run the following command:
 
-```
-pip3 install -r requirements.txt
-```
+    ```
+    pip3 install -r requirements.txt
+    ```
 
 To run the Jupyter Notebook, just open a terminal, go to the directory where the notebook is stored, and run the command
 
