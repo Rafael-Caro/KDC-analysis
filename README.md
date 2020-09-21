@@ -25,10 +25,15 @@ For all the analyses, a text file is generated with the specific numeric results
 This repository contains the following files:
 
 - The Jupyter Notebook `KDC-Analysis.ipynb` is the main file with the code for running the proposed analyses.
+
 - The `essentiaUtils.py` file defines some Python functions using algorithms from Essentia that are used in the previous notebook.
+
 - The `intonation.py` file is borrowed from the [intonation GitHub repository](https://github.com/gopalkoduri/intonation) by Gopala Koduri<sup>2</sup>, and is used in the notebook for computing pitch histograms. Small modifications have been added to adapt the code to Python 3 and customize the resulting plots.
+
 - The `KDC-data.csv` contains the required metadata and annotations for running the notebook.
+
   - The column `Shahed` contain pitch values for the šāhed of each file, manually verified by the authors
+
   - The columns `Min_freq`, `Max_freq` and `f0_cf` contain manually verified values for the minimum frequency, maximum frequency and pitch confidence threshold for extracting pitch track
 
 ## Access to the **KDC**
@@ -40,12 +45,10 @@ Since the **KDC** contains a collection of commercial recordings, it cannot be m
 In order to run the code, you need to downloaded either using [Git](https://git-scm.com/) or as a zip file. Then you also need to install the following software:
 
 - Essentia: in its website you can find a [guide for installing Essentia](https://essentia.upf.edu/installing.html). Except for Linux users, this can be a bit complicated. For developing this repository, a computer with Windows 10 has been used. According to our experience, the easiest way to have Essentia running in a Windows system is installing a Linux distribution, following this [official installation guide from Microsoft](https://docs.microsoft.com/de-de/windows/wsl/install-win10#install-your-linux-distribution-of-choice) (for this repository we used Ubuntu 18.04 LTS). Once the Linux distribution is installed, Essentia can be installed there by running
-
 ```
 pip3 install essentia
 ```
-
-from the terminal (installing `pip` might be required, follow the instructions that will appear). The rest of the following software should be also installed in the Linux distribution, and the code also should be run from there.
+  from the terminal (installing `pip` might be required, follow the instructions that will appear). The rest of the following software should be also installed in the Linux distribution, and the code also should be run from there.
 
 - Jupyter: in its website you can find a [guide for installing Jupyter](https://jupyter.org/install)
 
